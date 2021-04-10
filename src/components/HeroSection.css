@@ -1,0 +1,21 @@
+.hero-container {
+    background: url("../images/hero-background.jpeg") 0 0 / auto no-repeat;
+    background-size: 100% 88vh;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 20%;
+}
+
+.hero-container > h1 {
+    color: coral;
+    font-size: 100px;
+}
+
+.hero-link {
+    margin: 10px;
+}
