@@ -1,2 +1,0 @@
-(this.webpackJsonpmynearbyplaces=this.webpackJsonpmynearbyplaces||[]).push([[0],{10:function(e,n,c){"use strict";c.r(n);c(1);var t=c(3),s=c.n(t),r=(c(8),c(0));var a=function(){return Object(r.jsx)("div",{className:"App",children:Object(r.jsx)("h1",{children:"hello!!!!"})})};s.a.render(Object(r.jsx)(a,{}),document.getElementById("root"))},8:function(e,n,c){}},[[10,1,2]]]);
-//# sourceMappingURL=main.600605e4.chunk.js.map
