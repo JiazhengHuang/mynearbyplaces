@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import { Container } from "react-bootstrap";
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <Container className="footer-container">
             &copy; Copyright {new Date().getFullYear()}, All right
-        </div>
+        </Container>
     );
 }
 

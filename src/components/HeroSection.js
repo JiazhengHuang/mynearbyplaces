@@ -22,13 +22,6 @@ function HeroSection() {
                     <Button variant="secondary">Search</Button>
                 </InputGroup.Append>
             </InputGroup>
-            <br />
-            <div>
-                <Link className="hero-link">Restaurants</Link>
-                <Link className="hero-link">Home Services</Link>
-                <Link className="hero-link">Delivery</Link>
-                <Link className="hero-link">Plumbers</Link>
-            </div>
         </div>
     );
 }

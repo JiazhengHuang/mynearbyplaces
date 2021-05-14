@@ -1,27 +1,23 @@
 import React from "react";
 import "./Review.css";
 
-import { Container, Card, Button, CardDeck, Form } from "react-bootstrap";
+import { Container, Card, CardDeck } from "react-bootstrap";
+import coffeeshop from "../images/coffeeshop.jpeg";
+import foodtruck from "../images/food-truck.jpeg";
+import starbucks from "../images/starbucks.jpeg";
 
 function Review() {
     return (
         <Container className="review-container">
-            <Form>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Add a new review:</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-                <Button variant="secondary">Submit</Button>
-            </Form>
-            <hr />
             <h2>Hot Businesses</h2>
             <br />
             <CardDeck>
                 <Card>
                     <Card.Img
                         variant="top"
-                        src="../images/coffeeshop.jpeg"
+                        src={coffeeshop}
                         alt="Coffee Shop"
+                        className="reviewImg"
                     />
                     <Card.Body>
                         <Card.Title>Coffee Shop ($$$)</Card.Title>
@@ -41,8 +37,9 @@ function Review() {
                 <Card>
                     <Card.Img
                         variant="top"
-                        src="../images/food-truck.jpeg"
+                        src={foodtruck}
                         alt="Food Truck"
+                        className="reviewImg"
                     />
                     <Card.Body>
                         <Card.Title>Food Truck ($$)</Card.Title>
@@ -62,8 +59,9 @@ function Review() {
                 <Card>
                     <Card.Img
                         variant="top"
-                        src="../images/starbucks.jpeg"
+                        src={starbucks}
                         alt="Starbucks"
+                        className="reviewImg"
                     />
                     <Card.Body>
                         <Card.Title>Starbucks ($)</Card.Title>

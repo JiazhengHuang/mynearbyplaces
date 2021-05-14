@@ -13,7 +13,10 @@ function Navbars() {
                         <Link to="/">Home</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/review">Write a Review</Link>
+                        <Link to="/addreview">Write a Review</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/addplace">Add a Place</Link>
                     </Nav.Link>
                 </Nav>
                 <Nav.Link>
