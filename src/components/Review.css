@@ -17,3 +17,7 @@ h2 {
 .reviewImg {
     height: 200px;
 }
+
+.card-address {
+    color: gray;
+}

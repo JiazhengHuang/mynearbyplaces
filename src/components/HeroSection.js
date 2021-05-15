@@ -1,7 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 function HeroSection() {
     return (
