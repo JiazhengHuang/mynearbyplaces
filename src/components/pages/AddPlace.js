@@ -44,15 +44,17 @@ function AddPlace() {
         api.addPlace(place)
             .then(() => {
                 setMessage(`The place ${name} was added successfully.`);
+                console.log(`The place ${name} was added successfully.`);
                 setName("");
                 setStreet("");
                 setCity("");
                 setPostalcode("");
                 setState("");
             })
-            .catch((e) =>
-                setMessage(`There was an error in adding the place ${name}`)
-            );
+            .catch((e) => {
+                setMessage(`There was an error in adding the place ${name}`);
+                console.log(e);
+            });
     };
 
     return (
